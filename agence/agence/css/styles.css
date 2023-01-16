@@ -155,10 +155,12 @@ j ai juste place correctement les elements*/
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
 }
 
 .midpage article p{
     margin-top: 5px;
+    font-size: 20px;
 }
 
 /*Ici c est le footer avec juste les href de contact, conditions d'utilisations et mentions legales*/
