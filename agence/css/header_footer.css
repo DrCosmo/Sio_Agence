@@ -36,8 +36,10 @@ body{
 /*La c est tout le header*/
 
 .header{
-    height: 15vh;
+    height: auto;
     width: 100%;
+    padding: 15px 0;
+
     background-color: #ea094b;
     box-shadow: 0 0px 1px #ea094b;
     display: flex;
@@ -54,24 +56,29 @@ body{
 c est juste que c est 10vh pour la taille pas besoins de changer autre chose normalement*/
 
 .header .icon{
-    height: 10vh;
+    height: 100%;
+    width: auto;
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+
     margin-right: 4px;
 }
 
 .header .icon img{
-    height: 7.1vh;
-    margin-bottom: 4px;
+    height: 75px;
 }
 
 .header .icon span{
     color: #fff;
     font-size: 120%;
-    border-radius: 10px;
+    border-radius: 3px;
     letter-spacing: 0.5px;
-    padding: 3px;
+
+    margin-top: 2px;
+    padding: 2px 5px;
 }
 
 .header .icon:hover span{
@@ -84,9 +91,10 @@ c est juste que c est 10vh pour la taille pas besoins de changer autre chose nor
 .header .rightheader{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     width: auto;
-    height: 10vh;
+    height: 100%;
 }
 
 /*Pour le titre j ai juste recentre les truc au centre avec une couleur 
@@ -100,13 +108,15 @@ pas besoin de mettre une taille car elle est deja decide avec h1 et h3 et je la 
     color: #fff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: default;
+
+    height: 75px;
 }
 
 /*Ici c est la nav bar
 j ai juste place correctement les elements*/
 
 .header .rightheader nav{
-    margin-top: 4px;
+    margin-top: 2px;
 }
 
 .header .rightheader nav ul{
@@ -115,38 +125,21 @@ j ai juste place correctement les elements*/
 }
 
 .header .rightheader nav ul li{
-    padding: 0 5px;
-}
-
-.header .rightheader nav ul li:hover{
-    cursor: pointer;
+    margin: 0 4px;
 }
 
 .header .rightheader nav ul li a{
+    height: 100%;
+    width: 100%;
+    padding: 2px 5px;
+    border-radius: 3px;
     font-size: 120%;
-    letter-spacing: 0.5px;
     color: #fff;
-    border-radius: 10px;
-    padding: 3px;
 }
 
 .header .rightheader nav ul li:hover a{
     background-color: #fff;
     color: #ea094b;
-}
-
-/*Ici on passe au midpage*/
-
-.midpage{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
-.midpage article{
-    height: 75%;
-    margin: 5%;
 }
 
 /*Ici c est le footer avec juste les href de contact, conditions d'utilisations et mentions legales*/
@@ -156,8 +149,8 @@ j ai juste place correctement les elements*/
     flex-direction: row;
     justify-content: space-evenly;
 
-    height: 5vh;
-    background-color: #f0f0f0;
+    height: 50px;
+    background-color: #e4e4e4;
 
     margin-bottom: 0;
 
@@ -177,5 +170,5 @@ j ai juste place correctement les elements*/
 }
 
 .footer a:hover{
-    background-color: #dfdfdf;
+    background-color: #d4d4d4;
 }
