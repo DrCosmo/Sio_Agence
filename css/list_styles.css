@@ -1,0 +1,90 @@
+/*
+*****************************
+**  CSS de LO RE Baptiste  **
+*****************************
+*/
+
+/*Mid page*/
+
+h1, h2,h3, h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.midpage{
+    height: 100%;
+    width: 100%;
+    padding: 75px;
+
+    overflow-y: scroll;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px;
+}
+
+.midpage a{
+    width: auto;
+    height: auto;
+    background-color: #e2e2e2;
+    padding: 20px 10px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.midpage a:hover{
+    background-color: #d4d4d4;
+}
+
+.midpage a .left{
+    height: auto;
+    width: 65%;
+    background-color: #ea094b;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.midpage a:hover .left{
+    background-color: #da0948;
+}
+
+.midpage a .left .title{
+    padding-left: 50px;
+}
+
+.midpage a .left .infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.midpage a .left .infos div{
+    width: 20%;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+.midpage a:hover .left .infos div{
+    background-color: rgb(231, 231, 231);
+}
+
+.midpage a .left .description{
+    padding: 4px 0;
+}
+
+.midpage a .left .description h4{
+    padding: 0 0 4px 0;
+}
+
+.midpage a img{
+    height: 100%;
+    width: auto;
+}
