@@ -72,3 +72,25 @@ article{
     width: 1000px;
     font-size: 20px;
 }
+
+.sticky{
+    position: fixed; top: 20%; right: 0; border: 0;
+    background-color: #4793da;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sticky img{
+    height: 50px;
+}
+
+.sticky a .agenceAutrice{
+    display: flex;
+    gap: 20px;
+}

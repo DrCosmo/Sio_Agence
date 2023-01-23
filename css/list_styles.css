@@ -24,15 +24,14 @@ h1, h2,h3, h4{
 }
 
 .midpage a{
-    width: auto;
-    height: auto;
+    width: 70%;
+    height: 250px;
     background-color: #e2e2e2;
-    padding: 20px 10px;
+    padding: 10px 10px;
     border-radius: 10px;
 
     display: flex;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-between;
 }
 
 .midpage a:hover{
@@ -50,10 +49,6 @@ h1, h2,h3, h4{
 
 .midpage a:hover .left{
     background-color: #4793da;
-}
-
-.midpage a .left .title{
-    padding-left: 50px;
 }
 
 .midpage a .left .infos{
@@ -86,7 +81,7 @@ h1, h2,h3, h4{
 }
 
 .midpage a img{
-    height: 220px;
+    height: auto;
     width: auto;
     border-radius: 10px;
 }
