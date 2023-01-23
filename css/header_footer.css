@@ -41,7 +41,7 @@ body{
     padding: 15px 0;
 
     background-color: #ea094b;
-    box-shadow: 0 0px 1px #ea094b;
+    border-bottom: 1px solid #cf0844;
     display: flex;
     justify-content: center;
     align-items: center;

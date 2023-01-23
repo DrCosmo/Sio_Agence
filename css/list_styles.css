@@ -31,7 +31,8 @@ h1, h2,h3, h4{
     border-radius: 10px;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
 }
 
 .midpage a:hover{
@@ -40,7 +41,7 @@ h1, h2,h3, h4{
 
 .midpage a .left{
     height: auto;
-    width: 65%;
+    width: 600px;
     background-color: #ea094b;
     color: #fff;
     border-radius: 10px;
@@ -85,6 +86,7 @@ h1, h2,h3, h4{
 }
 
 .midpage a img{
-    height: 100%;
+    height: 220px;
     width: auto;
+    border-radius: 10px;
 }
