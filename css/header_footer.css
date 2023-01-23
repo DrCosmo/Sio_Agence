@@ -40,8 +40,8 @@ body{
     width: 100%;
     padding: 15px 0;
 
-    background-color: #ea094b;
-    border-bottom: 1px solid #cf0844;
+    background-color: #4793da;
+    border-bottom: 1px solid #3d7fbd;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +83,7 @@ c est juste que c est 10vh pour la taille pas besoins de changer autre chose nor
 
 .header .icon:hover span{
     background-color: #fff;
-    color: #ea094b;
+    color: #4793da;
 }
 
 /*La c est tout ce qui est Titre slogan et la nav bar*/
@@ -139,7 +139,7 @@ j ai juste place correctement les elements*/
 
 .header .rightheader nav ul li:hover a{
     background-color: #fff;
-    color: #ea094b;
+    color: #4793da;
 }
 
 /*Ici c est le footer avec juste les href de contact, conditions d'utilisations et mentions legales*/

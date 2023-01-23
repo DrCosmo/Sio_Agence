@@ -42,14 +42,14 @@ h1, h2,h3, h4{
 .midpage a .left{
     height: auto;
     width: 600px;
-    background-color: #ea094b;
+    background-color: #4793da;
     color: #fff;
     border-radius: 10px;
     padding: 5px 15px;
 }
 
 .midpage a:hover .left{
-    background-color: #da0948;
+    background-color: #4793da;
 }
 
 .midpage a .left .title{
