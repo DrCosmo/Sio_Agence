@@ -1,0 +1,93 @@
+.mainInfo .Title{
+	margin-left: 15vh;
+}
+.lieu{
+	display: flex;
+	margin-left: 15vh;
+}
+.lieu img{
+	height: 4rem;
+}
+.lieu h2{
+	align-self: center;
+}
+.mainInfo .Price{
+	margin-left: 17vh;
+}
+
+.Preview{
+	display: flex;
+	margin-top: 2vh;
+	margin-left:20vh;
+}
+
+.Preview img{
+	float: right;
+	flex-grow: 3;
+	margin-left: 15%;
+	overflow: auto;
+	width: 50%;
+	height: auto;
+	max-width: 50%;
+}
+.page{
+	margin-left: 10vh;
+}
+.page p{
+	margin-top: 3vh;
+	font-size: large;
+}
+
+.Preview article{
+	border-radius: 10px;
+	background-color: #ea094c;
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+
+.Preview article h2{
+	color: #fff;
+	margin-top: 2vh;
+	margin-left: 2vh;
+}
+.Preview article p{
+	width: 90%;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 10px;
+	margin-top: 1vh;
+	margin-left: 1vh;
+}
+.description h1{
+	margin-top: 5vh;
+}
+
+.main{
+	display: flex;
+}
+.page{
+	width: 90%;
+}
+.sticky{
+	color:#fff;
+	width: 15%;
+	height: fit-content;
+	margin-top: 2vh;
+	text-align: center ;
+	background-color: #ea094c;
+	position: sticky; top: 1vh; right: 0; border: 0;
+}
+.agenceAutrice{
+	display: flex;
+	margin-top: 2vh;
+	margin-bottom: 25vh;
+}
+.agenceAutrice img{
+	height: 25%;
+	width: 25%;
+}
+.agenceAutrice h2{
+	margin-top: 3vh;
+	margin-left: 2vh;
+}

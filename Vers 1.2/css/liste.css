@@ -1,0 +1,60 @@
+.Title{
+	margin-left: 15vh;
+    margin-top: 5vh;
+    font-size: 5vh;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none;
+}
+.Title:hover a{
+    background-color: #fff;
+    color: #ea094b;
+}
+
+.Price{
+	margin-left: 17vh;
+    font-size: 5vh;
+}
+
+.Preview{
+	display: flex;
+    margin-top: 2vh;
+	margin-left:20vh;
+}
+
+.Preview img{
+	float: right;
+	flex-grow: 3;
+	margin-left: 15%;
+	overflow: auto;
+	width: 50%;
+	height: auto;
+	max-width: 50%;
+}
+.Preview article{
+	border-radius: 10px;
+	background-color: #ea094c;
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+
+.Preview article h2{
+	color: #fff;
+	margin-top: 2vh;
+	margin-left: 2vh;
+}
+.Preview article p{
+	width: 90%;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 10px;
+	margin-top: 1vh;
+	margin-left: 1vh;
+}
+.liste{
+    display: flex;
+    flex-direction: column;
+}
+
