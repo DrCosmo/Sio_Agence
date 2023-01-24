@@ -1,0 +1,27 @@
+/*Ici on passe au midpage*/
+
+.midpage{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.midpage article{
+    margin: 5%;
+    background-color: #d4d4d4;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.midpage article h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.midpage article p{
+    margin-top: 5px;
+    font-size: 20px;
+}
