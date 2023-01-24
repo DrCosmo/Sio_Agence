@@ -1,0 +1,5 @@
+.midpage{
+    display: flex;
+    flex-direction: column;
+}
+
